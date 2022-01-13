@@ -8,8 +8,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="icon" type="image/x-icon" href="../assets/img/favicon.ico">
-    <!--<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
     <link rel="stylesheet" href="..\assets\css\styles.css">
     <link rel="stylesheet" href="styles.css">
@@ -52,31 +52,43 @@
 <!--SPECIFIC PAGE CODE STARTS FROM HERE-->  
 <div class="portfolio-page">
 
-    <a href="#projects"><img class="static-arrow" src="../assets/img/slide-up.png" alt=""></a>
+  <a href="#nav-bar"><img class="fixed-arrow" src="../assets/img/slide-up.png" alt=""></a>
 
-    <section>
-
-    <div class="projects">
-            <img class="planet" src="../assets/img/save-the-planet.png" id="planet" alt="">
-            <h1>I want to create high-performance and design 
-                websites that can be used by companies and people as tool to make a 
-                positive impact on our planet.
-            <h1 id="pre-title">Here's some examples of what has been built so far.</h1>
+<section>
+  <div class="projects">
+    <nav class="nav flex-row">
+      
+        <a class="nav-link" href="#pro-goal">Professional Goal</a>
         
-        
-            <h1 id="projects">Projects</h1>
+        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+        aria-expanded="false">
+        Projects
+        </a>
 
-            <ul class="overview" id="overview">
-                <h5>Overview</h5>
-                <li><a href="#first-container"><span>#01</span>//HTML & CSS Skills</a></li>
-                <li><a href="#second-container"><span>#02</span>//Coming Soon</a></li>
-                <li><a href="#third-container"><span>#03</span>//Coming Soon</a></li>
-                <li><a href="#fourth-container"><span>#04</span>//Coming Soon</a></li>
-            </ul>
+        <div class="dropdown-menu">
+            <a class="dropdown-item" href="#first-container"><span>#01</span>//HTML & CSS Skills</a>
+            <a class="dropdown-item" href="#second-container"><span>#02</span>//Coming Soon</a>
+            <a class="dropdown-item" href="#third-container"><span>#03</span>//Coming Soon</a>
+            <a class="dropdown-item" href="#fourth-container"><span>#04</span>//Coming Soon</a>
+        </div>
+      </nav>
 
-                  
+      
+            
+            
+    <div class="goal-box">    
+      <h3 id="pro-goal"> <span>Goal</span>  <br>I want to create high-performance and design 
+              websites that can be used by companies and people as tool to make a 
+              positive impact on our planet
+      </h3>
+      <img class="planet" src="../assets/img/footprint.png" id="planet" alt="">
+    </div>    
 
-        <div id="first-container" class="project-container">    
+      <h1 id="projects">Projects</h1>    
+
+      <h1 id="pre-title">Here are some examples of what has been built so far.</h1>
+
+    <div id="first-container" class="project-container">    
           <div class="text-cont">
             <h4><span>#01</span>// HTML & CSS - Building a Portfolio Website</h4>
             <p class="container-description">This is my portfolio website, the starting point 
@@ -90,11 +102,10 @@
             <div class="project-item first-project">
                 <div class="show-on-hover">Click for more</div>
             </div>
-          </a>
-            
-        </div>
+          </a>        
+    </div>
 
-        <div id="second-container" class="project-container">   
+    <div id="second-container" class="project-container">   
           <div class="text-cont">
             <h4><span>#02</span>// Coming Soon</h4>
             <p class="container-description"></p>
@@ -102,39 +113,38 @@
 
             <div class="project-item"> 
                 <p>Coming Soon</p> 
-            </div>
-            
-        </div> 
+            </div>    
+    </div> 
 
-        <div id="third-container" class="project-container">  
+
+    <div id="third-container" class="project-container">  
           <div class="text-cont">
             <h4><span>#03</span>// Coming Soon</h4>
             <p class="container-description"></p>
           </div>
             <div class="project-item">
                 <p>Coming Soon</p>
-            </div>
-            
-        </div>
+            </div>        
+    </div>
 
-        <div id="fourth-container" class="project-container">  
+    <div id="fourth-container" class="project-container">  
           <div class="text-cont">
             <h4><span>#04</span>// Coming Soon</h4>
             <p class="container-description"></p>
           </div>
             <div class="project-item">
                 <p>Coming Soon</p>
-            </div>
-            
-        </div>
-
-        <a class="back-to" href="#nav-bar">That's all, for now. <br> 
-            Back To Beginning</a>
-
+            </div>        
     </div>
 
 
-    </section>
+        <a class="back-to" href="#projects">That's all, for now. <br> 
+            Back To Beginning</a>
+
+  </div>
+
+
+</section>
 
 </div> <!--END OF PORTFOLIO PAGE-->  
 
@@ -143,24 +153,32 @@
 <!--footer-->
     <footer class="footer">
     
-      <img src="../assets/img/mtdng-logo-header.png" width="160" alt="MTDNG">
+      <img src="../assets/img/mtdng-logo-header.png" width="140" alt="MTDNG">
 
         <div class="social">
-            <a href="www.linkedin.com/in/matteo-dangiò"><img src="../assets/img/icons8-linkedin-circled-48.png" alt="Linkedin" width="40"></a>
+            <a href="https://www.linkedin.com/in/matteo-dangi%C3%B2/"><img src="../assets/img/icons8-linkedin-circled-48.png" alt="Linkedin" width="40"></a>
             <a href="https://github.com/teo-danger"><img src="../assets/img/icons8-github-48.png" alt="Github" width="40"></a>
             <a href="https://www.instagram.com/teo_danger/"><img src="../assets/img/icons8-instagram-48.png" alt="Instagram" width="40"></a>
-            <a href=""><img src="../assets/img/icons8-facebook-48.png" alt="Facebook" width="40"></a>
+            <a href="https://www.facebook.com/matteo.dangio.1/"><img src="../assets/img/icons8-facebook-48.png" alt="Facebook" width="40"></a>
+            <a href="https://talent.start2impact.it/profile/matteo-dangio"><img src="/assets/img/s2i.png" alt="Linkedin" width="32"></a>
         </div>
 
         <p>Copyright © 2022 <br> 
             All rights reserved.</p>
-    
-   
+     
     </footer>
 
+<!--bootstrap-->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+crossorigin="anonymous"></script>
 
 
-<!--<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
--->
 </body>
 </html>

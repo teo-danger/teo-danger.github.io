@@ -85,12 +85,10 @@ body{
 .nav-item{
     padding: 10px;
     margin: 0 40px;
-    border-bottom: 0.1px solid #ffffff48;
-    
+    border-bottom: 0.1px solid #00000093;
     transition-duration: 0.5s;
-
     text-align: center;
-    color: rgba(255, 255, 255, 0.63);
+    color: rgb(0, 0, 0);
     font-weight: 700;
     font-size: 17px;
 }
@@ -105,7 +103,8 @@ body{
     transition-duration: 0.5s;
 }
 .nav-item:hover {
-    background-color: rgba(0, 0, 0, 0.295);
+    background-color: rgb(0, 0, 0);
+    color: white;
     transition-duration: 0.5s;
     transform: scale(1.1);
 }
@@ -142,11 +141,15 @@ body{
 }
 .social{
     margin: 8px 0 12px 0;
+    display: flex;
+    align-items: center;
 }
 .social img{
-    margin: 0 5px;
+    margin: 0 8px;
     transition-duration: 0.3s;
-}
+    }
+
+
 .social img:hover{
     transform: scale(1.4);
     transition-duration: 0.3s;
@@ -180,8 +183,8 @@ body{
     }
     .nav-item:hover {
         background: none;
-        border-bottom: 3px solid rgba(255, 255, 255, 0.459);
-        transform: scale(1.2);
+        border-bottom: 3px solid rgb(0, 0, 0);
+        
     }
     .logo-head{
         padding: 1em 0;
@@ -221,8 +224,8 @@ body{
     }
     .nav-item:hover {
         background: none;
-        border-bottom: 3px solid rgba(255, 255, 255, 0.452);
-        transform: scale(1.2);
+        border-bottom: 3px solid rgb(0, 0, 0);
+        
     }
 
     .footer{
@@ -232,9 +235,9 @@ body{
     }
     .footer p,
     .footer img{
-        order:-1;
+        order: -1;
     }
     .social img{
-        margin: 0;        
+        margin: 0 1px;        
     }
 

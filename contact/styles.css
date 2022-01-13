@@ -13,7 +13,7 @@
     border-top, border-left, border-right: none;
 }
 .selected-contact{
-    color: darkslategray;
+    color: black;
     font-weight: 700;
     font-size: 22px;
 }
@@ -29,6 +29,9 @@
     line-height: 1.3;
     font-size: 18px;
     text-align: center;
+}
+.intro-text h1:first-of-type{
+    font-style: italic;
 }
 .intro-text h1:nth-of-type(2){
     font-size: 40px;
@@ -63,14 +66,14 @@ label{
     border: 1px solid rgba(0, 0, 0, 0.39);
     border-radius: 5px;
     height: 40px;
-    background: none;
+    background-color: rgba(255, 255, 255, 0.13);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
 }
 
 ::placeholder{
     font-size: 15px;
-    color: rgba(71, 72, 73, 0.514);
+    color: rgba(7, 7, 7, 0.562);
 }
 .form-row textarea,
 .form-row input{
@@ -85,7 +88,7 @@ label{
 .form-row input:hover,
 .form-row select:hover,
 .form-row textarea:hover {
-    border: 1px solid black;
+    border: 2px solid black;
 }
 
 .form-row input [type="text"]:invalid,
@@ -107,7 +110,7 @@ label{
     background-color: #2178db;
     border: none;
     border-radius: 5px;
-    margin-top: 30px ;
+    margin-top: 60px ;
     padding: 15px 0;
     width: 250px;
     align-self: center;
@@ -123,8 +126,9 @@ label{
   }
 
   .privacy-policy{
-      align-self: center;
-  }
+    display: flex;
+    align-items: center;
+}
 
 
 

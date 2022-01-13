@@ -52,7 +52,9 @@ html{
     margin: 70px 0 80px 0;
 }
 .nav-link{
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: 700;
 }
 
 
@@ -141,7 +143,8 @@ html{
 }
 
 .music p{
-    margin: 20px 0 30px 0;
+    margin: 20px 0 40px 0;
+    text-align: center;
 }
 
 .logo-loudblood{
@@ -227,7 +230,7 @@ video {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 120px;
+    margin-bottom: 50px;
 }
 
 
@@ -311,11 +314,15 @@ video {
     .about-page h4{
         font-size: 25px;
     }
+    .about-sections{
+        border-radius: 30px;
+    }
     .about-sections h1{
         font-size: 50px;
     }
     .title-img {
-        width: 65px;
+        width: 70px;
+        margin: 20px 0 55px 0;
     }
     
 
@@ -357,25 +364,12 @@ video {
     }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
     .skills-item img{
         width: 60px;
     }
 
     .skills{
-        margin: 200px 0 80px 0;
+        margin: 70px 0 0 0;
     }
     .skills h1:last-of-type{
         margin-bottom: 130px;
