@@ -1,0 +1,240 @@
+/* ||FONTS */
+@font-face {
+    font-family:'Roboto', sans-serif;
+    src: url(assets/fonts/roboto/Roboto-Light-webfont.woff);
+    font-style: normal;
+    font-weight: 300;
+}
+@font-face {
+    font-family:'Roboto', sans-serif;
+    src: url(assets/fonts/roboto/Roboto-LightItalic-webfont.woff);
+    font-style: italic;
+    font-weight: 300;
+}
+@font-face {
+    font-family:'Roboto', sans-serif;
+    src: url(assets/fonts/roboto/Roboto-Medium-webfont.woff);
+    font-style: normal;
+    font-weight: 500;
+}
+@font-face {
+    font-family:'Roboto', sans-serif;
+    src: url(assets/fonts/roboto/Roboto-Regular-webfont.woff);
+    font-style: bold;
+    font-weight: 700;
+}
+@font-face {
+    font-family:'Roboto', sans-serif;
+    src: url(assets/fonts/roboto/Roboto-Black-webfont.woff);
+    font-style: bolder;
+    font-weight: 900;
+}
+@font-face {
+    font-family:'Windsong', sans-serif;
+    src: url(assets/fonts/Windsong-webfont.woff);
+    font-style: normal;
+    font-weight: 200;
+}
+
+/* ||STARTERS */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+:root {
+    --grey1: #f8f8ff;
+    --grey2: #f3f4f5;
+    --grey3: #65676b;
+    --white: #ffffff;
+    --blue1: #003554;
+    --black-op: rgba(0, 0, 0, 0.8);
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+body{
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+
+
+
+                       /* ||DIVS - mobile first */
+                       /* ||ALL PAGE COMMON CSS FILE */  
+/* ||HEADER */
+
+
+.nav-bar{
+    background-color: rgba(0, 0, 0, 0);
+}
+.nav-list {
+    display:flex;
+    flex-direction: column;
+    padding-bottom: 5px; 
+}
+.nav-item{
+    padding: 10px;
+    margin: 0 40px;
+    border-bottom: 0.1px solid #ffffff48;
+    
+    transition-duration: 0.5s;
+
+    text-align: center;
+    color: rgba(255, 255, 255, 0.63);
+    font-weight: 700;
+    font-size: 17px;
+}
+.nav-item:last-of-type{
+    border-bottom: none;    
+}
+
+.logo-head{
+    padding: 1em 0 0 0 ;
+    display: flex;
+    justify-content: center;
+    transition-duration: 0.5s;
+}
+.nav-item:hover {
+    background-color: rgba(0, 0, 0, 0.295);
+    transition-duration: 0.5s;
+    transform: scale(1.1);
+}
+.logo-head:hover{
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+}
+.hero{
+    height: 100%;
+    background-image: linear-gradient(rgba(16, 53, 219, 0.5),rgba(187, 15, 15, 0.5));
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+/* ||FOOTER */
+.footer{
+    background-color: rgba(0, 0, 0, 0);
+    height: 200px;
+    padding: 20px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.footer p{
+    font-size: 15px;
+    color: #000000;
+    line-height: 20px;
+    margin-bottom: 8px;
+    text-align: center;
+}
+.social{
+    margin: 8px 0 12px 0;
+}
+.social img{
+    margin: 0 5px;
+    transition-duration: 0.3s;
+}
+.social img:hover{
+    transform: scale(1.4);
+    transition-duration: 0.3s;
+    text-shadow: 2px;
+}
+
+
+
+                            /* ||RESPONSIVE */
+
+/* ||tablet */
+@media only screen and (min-width:501px) and (max-width:960px){
+
+    .menu {
+        width: 90%;
+        margin: 0 auto;
+        padding:1em 0;
+        display:flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .nav-list{
+        display:flex; 
+        flex-direction: row;
+        justify-content: space-evenly;  
+        padding-bottom: 0px;
+    }
+    .nav-item{
+        margin: 0;
+        border:none;
+    }
+    .nav-item:hover {
+        background: none;
+        border-bottom: 3px solid rgba(255, 255, 255, 0.459);
+        transform: scale(1.2);
+    }
+    .logo-head{
+        padding: 1em 0;
+    }
+}
+
+/* ||desktop */
+@media only screen and (min-width:961px){
+   /* .menu{
+        position: fixed;
+        overflow: hidden;
+        top:0;
+        width: 100%
+    }   non riesco a fissare la navbar perchè se poi 
+    faccio un margin-top su .page,, quest'ultima è dentro 
+    l'header quindi mi sposta giù anche l'inizio dell'header.*/
+
+
+    
+    
+    .menu {
+        display:flex;
+        justify-content: space-between;
+        width: 90%;
+        margin: 0 auto;
+        padding: 10px 0;
+    }
+    .nav-list{
+        display:flex;
+        flex-direction: row;
+        align-items: center;
+        padding-bottom: 0px;   
+    }
+    .nav-item {
+        border:none;
+        margin: 0 20px;
+    }
+    .nav-item:hover {
+        background: none;
+        border-bottom: 3px solid rgba(255, 255, 255, 0.452);
+        transform: scale(1.2);
+    }
+
+    .footer{
+        flex-direction: row;
+        justify-content: space-around;
+        height: 130px;
+    }
+    .footer p,
+    .footer img{
+        order:-1;
+    }
+    .social img{
+        margin: 0;        
+    }
+

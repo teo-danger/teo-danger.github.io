@@ -1,0 +1,397 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* ||FONTS */
+
+/*CHANGES compared to global css stylesheet*/
+.nav-item:hover {
+    color: rgba(255, 255, 255, 0.63);
+    
+}
+.nav-item:nth-of-type(3):hover{
+    background: none;
+    transform: none;
+    border-top, border-left, border-right: none;
+}
+.selected-about{
+    color: black;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+/* || DIVS */
+
+.fixed-arrow{
+    position: fixed;
+    z-index: 1;
+    width: 60px;
+    bottom: 20px;
+    right: 20px;
+    opacity: 30%;
+    transition: all 0.5s;
+}
+.fixed-arrow:hover{
+    transition: all 0.5s;
+    opacity: 100%;
+}
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 70px 0 80px 0;
+}
+.nav-link{
+    color: rgb(255, 255, 255);
+}
+
+
+.about-sections{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin: 40px 0;
+    padding: 60px 20px;
+    background-color: rgb(0, 0, 0);
+}
+.about-sections:last-of-type{
+    margin-bottom: 0px;
+}
+.about-sections:first-of-type{
+    margin-top: 0px;
+}
+.about-sections h1{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 60px;
+}
+.title-img{
+    filter: invert(1);
+    width: 50px;
+    margin-bottom: 40px;
+    align-self: center;
+}
+.about-me p,
+.about-me h4, 
+.music p, 
+.trip p, 
+.sport p {
+    font-size: 16px;
+    line-height: 32px;
+}
+
+/*ABOUT ME*/
+.about-me h4{
+    text-align: center;
+    font-size: 16px;
+}
+.photo-of-me{
+    align-self: center;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    background-image: url(../assets/img/me-cut.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 40px 0;
+}
+.about-me p:last-of-type{
+    margin-top: 30px;
+    color: rgb(100, 197, 124);
+    width: 100%;
+}
+
+/*education*/
+
+.edu-step{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.edu-step img{
+    width: 50px;
+    margin: 50px;
+    
+}
+.edu-step-text{
+    font-size: 14px;
+    width: 60%;   /*DA CAMBIARE NEL DESTOP RESPONS DESIGN*/
+}
+.edu-step-text span{
+    color: rgb(100, 197, 124);
+    font-weight: 700;
+}
+
+
+/*MUSIC*/
+.music {
+   align-items: center;
+}
+
+.music p{
+    margin: 20px 0 30px 0;
+}
+
+.logo-loudblood{
+    filter: invert(1);
+    width: 150px;
+    margin: 0 0 20px 0;
+}
+.music a > img {
+    margin: 10px 0 20px 0;
+    transition: all 0,5s
+}
+.music a > img:hover {
+    transform: scale(1.2);
+    transition: all 0,5s;
+}
+.music p > span{
+    color: rgb(100, 197, 124);
+    font-weight:700;
+    border: 2px solid white;
+    padding: 15px;
+    border-radius: 30px;
+}
+
+
+/*trip*/
+
+.trip .carousel{
+    margin: 30px 0;
+}
+.trip .carousel img:first-of-type,
+.trip .carousel img:nth-of-type(2) {
+    width: 80%;
+    height: 60%;
+}
+
+.trip p{
+    text-align: center;
+}
+
+/*SPORT*/
+.sport{
+    align-items: center;
+}
+
+.sport h5{
+    margin: 100px 0 40px 0;
+}
+.sport h5:first-of-type{
+    margin: 60px 0 40px 0;
+}
+.sport img:nth-of-type(2),
+.sport img:last-of-type {
+    width: 400px;
+    height: 300px;
+}
+
+video {
+    width: 400px;
+    height: 300px;
+}
+
+.sport p:last-of-type{
+    margin: 0 0 60px 0;
+}
+
+
+
+
+.skills{
+    text-align: center;
+}
+.soft h5 { 
+    color: rgb(100, 197, 124);
+    font-size: 18px;
+    margin: 15px 0;
+    transition: all 0.5s;
+}
+.soft h5:hover{
+    transition: all 0.5s;
+    transform: scale(1.3);
+}
+.soft{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 120px;
+}
+
+
+.skills-container{
+    display:flex;
+    justify-content: space-evenly;
+    color: white;
+}
+.skills-container{
+    margin-bottom: 60px;
+}
+.skills-item{
+    margin: 40px 0;
+}
+.skills-item img{
+    transition-duration: 0.5s;
+}
+#git-logo{
+    filter: invert(1);
+}
+.skills-item img:hover{
+    transform: scale(1.2);
+    transition-duration: 0.5s;
+}
+.skills-item p{
+    margin-top: 8px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.skills h4{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+
+
+                            /* ||RESPONSIVE */
+
+/* ||tablet */
+@media only screen and (min-width:501px) and (max-width:960px){
+    .hero-text h2:first-of-type{
+        text-align: center;
+        
+    }
+    .nav-item:nth-of-type(3):hover{
+        border-bottom: none;
+    }
+
+    .nav-link{
+        font-size: 22px;
+        color: black;
+    }
+    
+}
+
+
+
+
+/* ||desktop */
+@media only screen and (min-width:961px){
+    
+    .nav-item:nth-of-type(3):hover{
+        border-bottom: none;
+    }
+    .nav-link{
+        font-size: 24px;
+        color: black;
+    }
+    .dropdown-item{
+        font-size: 18px;
+
+    }
+    .about-page{
+       margin: 0 100px;
+    }
+    .about-page p {
+        font-size: 18px;
+    }
+    .about-page h4{
+        font-size: 25px;
+    }
+    .about-sections h1{
+        font-size: 50px;
+    }
+    .title-img {
+        width: 65px;
+    }
+    
+
+    .about-me p{
+        align-self: center;
+        width:50%;
+    }
+    .about-me p:last-of-type{
+        width: 50%;
+    }
+
+    .logo-loudblood{
+        width: 250px;
+    }
+
+    .edu-step-text{
+        font-size: 14px;
+        width: 20%; 
+    }
+
+    .carousel {
+        align-self: center;
+        width: 80%;
+    }
+
+
+    .sport img:nth-of-type(2),
+    .sport img:last-of-type {
+        width: 650px;
+        height: 550px;
+    }
+
+    video {
+        width: 650px;
+        height: 550px;
+    }
+    .sport h5{
+        font-size: 30px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .skills-item img{
+        width: 60px;
+    }
+
+    .skills{
+        margin: 200px 0 80px 0;
+    }
+    .skills h1:last-of-type{
+        margin-bottom: 130px;
+    }
+    .skills h4{
+        font-size: 26px;
+        margin: 100px 0 40px 0;
+    }
+    
+    .soft h5{
+        font-size: 25px;
+        margin-bottom: 50px;
+    }
+    .soft h5:last-of-type{
+        margin-bottom: 0;
+    }
+
+
+}

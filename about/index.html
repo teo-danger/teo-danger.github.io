@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Matteo Dangiò - Personal website - ABOUT</title>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" type="image/x-icon" href="../assets/img/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="..\assets\css\styles.css">
+    <link rel="stylesheet" href="styles.css">
+
+    <!--'Work-Sans', sans serif-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;0,500;0,700;1,300&display=swap"
+        rel="stylesheet">
+
+</head>
+
+
+
+<body class="hero">
+    <!--COMMON TO ALL PAGES, change only relative paths and class=selected for nav links-->
+
+    <header>
+
+        <!--Navbar-->
+        <nav class="nav-bar" id="nav-bar">
+            <div class="menu">
+
+                <!--Logo-->
+                <div class="logo-head">
+                    <a href="../index.html"><img src="../assets/img/mtdng-logo-header.png" width="180" alt="logo"></a>
+                </div>
+
+                <!--Menu list-->
+                <div class="nav-list">
+                    <a class="nav-item" href="../index.html">Home</a>
+                    <a class="nav-item" href="../portfolio/">Portfolio</a>
+                    <a class="nav-item selected-about">About</a>
+                    <!--specific only for this page, change for other ones-->
+                    <a class="nav-item" href="../contact/">Contact</a>
+                </div>
+
+            </div>
+        </nav>
+    </header>
+
+    <!--SPECIFIC PAGE CODE STARTS FROM HERE-->
+    <div class="about-page">
+        <a href="#nav-bar"><img class="fixed-arrow" src="../assets/img/slide-up.png" alt=""></a>
+
+        <nav class="nav flex-row">
+            
+                <a class="nav-link" href="#about-me">About Me</a>
+                <a class="nav-link" href="#education">Education</a>
+              <!--  <a class="nav-link" href="#experiences">Experiences</a>-->
+
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+                aria-expanded="false">
+                Activities
+                </a>
+
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#music">Music</a>
+                    <a class="dropdown-item" href="#trip">Trip</a>
+                    <a class="dropdown-item" href="#sport">Sport</a>
+                </div>
+
+            
+            
+            <div>
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+                aria-expanded="false">
+                Skills
+                </a>
+                <div class="dropdown-menu dropdown-menu-right">
+                    <a class="dropdown-item" href="#soft-skills">Soft skills</a>
+                    <a class="dropdown-item" href="#hard-skills">Hard skills</a>
+                </div>
+            </div>
+            
+        </nav>
+
+
+        <section class="about-sections about-me" id="about-me">
+            <img src="../assets/img/account.png" class="title-img" alt="">
+            <h1>About me</h1>
+            <h4>Let me tell you something about me</h4>
+            <div class="photo-of-me"></div>
+            <p>My name is Matteo, I'm from Milan and I want to become 
+                a <span>Web Developer</span>. 
+                In 2021 I have obtained a Master's Degree in Environmental Science
+                and I am very interested in environmental protection issues.</p>
+                <p>I have a bad habit of being passionate 
+                about many interests and I'm constantly striving to improve 
+                myself with new activities.</p>
+                <p>I have only just started studying this discipline, but I am 
+                immediately passionate about it. 
+                I'm working hard to 
+                become a developer and I'm excited about future 
+                opportunities that this way will hold for me. </p> 
+                <p>On this page I will show you my interests and what I love to do with my time.</p> 
+            
+    </section>
+
+    <section class="about-sections education" id="education">
+            <img src="../assets/img/education.png" class="title-img" alt="">
+            <h1>Education</h1>
+
+        <div class="edu-step">
+            <img  src="../assets/img/university.png" alt="">
+            <div class="edu-step-text">
+                <h6>2018 Jul</h6>
+                <p><span>Bachelor's degree</span> - Sciences and Technologies for Environment</p>
+            </div> 
+        </div>
+
+        <div class="edu-step">
+            <img src="../assets/img/university.png" alt="">
+            <div class="edu-step-text">
+                <h6>2021 Apr</h6>
+                <p><span>Master's degree</span> - Sciences and Technologies for Environment and Landscape</p>
+            </div>
+        </div>
+            
+        <div class="edu-step">
+            <img  src="../assets/img/s2i.png" alt="">
+            <div class="edu-step-text">
+                <h6>2021 Dec</h6>
+                <p>Beninning of studies at <span>start2impact</span></p>
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+        <!--<section class="about-sections experiences" id="experiences">
+            <h1>Experiences</h1>
+        </section>-->
+
+    
+
+        <section class="about-sections music" id="music">
+            <img src="../assets/img/guitar-amp.png" class="title-img" alt="">
+            <h1>Music</h1>
+            
+            <p>Ok onestly, who don't love music? 
+                I love that. <br>
+                I grew up with many different music genres like Blues, 
+                Roots Reggae, Rock and Metal. <br>
+                I play electric guitar since more than 10 years and about 
+                3 years with my band mates. <br>
+                We're the Loudblood and we're a metal band. <br>
+                Often I write instrumental parts of our songs. <br>
+                We have recently changed our line-up and have a lot of new stuff coming up.</p>
+                <p><span>Stay tuned for updates!</span></p>
+                
+              
+                <a href="https://www.instagram.com/loudblood.band/">
+                    <img src="../assets/img/icons8-instagram-48.png" alt="Instagram" width="40">
+                </a>
+                <img class="logo-loudblood" src="../assets/img/HQ-PNG.png" alt="">
+              
+
+                <p>Here you can listen an extract from our first EP.</p> 
+                
+                <audio controls controlsList="nodownload">
+                    <source src="../assets/audio/Brave Monsters.mp3" type="audio/mpeg">         
+                </audio>
+        </section>
+
+
+        <section class="about-sections trip" id="trip">
+            <img src="../assets/img/backpack.png" class="title-img" alt="">
+            <h1>Trip</h1>
+           
+            <p>
+                One of my favourites activities is travelling to admire many beautiful
+                places. I like capturing landscapes. </p>
+            <p> Here are some shots!</p>
+            
+
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="false">
+                
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img class="d-block w-100" src="../assets/img/sicily1.jpg" alt="First slide">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Siracusa - Italy</h5>
+                        <p>Riserva Naturale del Plemmirio</p>
+                      </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="../assets/img/blacksand.jpg" alt="Second slide">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Vik - Iceland</h5>
+                        <p>Reynisfjara Beach</p>
+                      </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="../assets/img/bridge-lud.jpg" alt="Third slide">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Sirmione (BS) - Italy</h5>
+                        
+                      </div>
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only"></span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only"></span>
+                </a>
+              </div>
+
+              
+
+
+        </section>
+
+
+        <section class="about-sections sport" id="sport">
+            <img src="../assets/img/barbell.png" class="title-img" alt="">
+            <h1>Sport</h1>
+            
+            <p>I also like to play sports!</p>
+
+            <h5>Powerlifting</h5>
+            <img src="../assets/img/raw-gym.jpg" alt="">
+            
+
+            <h5>Boxing</h5>
+            <img src="../assets/img/boxe.jpg"  alt="">
+
+            <h5>Longboarding</h5>
+            <p>Ok, cruising along the roads doesn't really seems to be a sport, 
+                but I assure you that it often requires a lot of endurance!
+            </p>
+            <video controls controlsList="nodownload">
+                <source src="../assets/video/longboard-story.mp4" type="audio/mpeg">         
+            </video>
+        </section>
+
+
+        <section>
+            <div class="about-sections skills" id="skills">
+                <img src="../assets/img/skills.png" class="title-img" alt="">
+
+                <div class="" id="soft-skills">
+                    <h1>Soft skills</h1>
+                    
+                    <div class="soft">
+                        <h5>Enthusiast</h5>
+                        <h5>Resilient</h5>
+                        <h5>Respectfullness</h5>
+                        <h5>Team Worker<h5>
+                    </div>
+
+                </div>
+
+
+
+            <div class="skills" id="hard-skills">
+
+           
+
+                <h1>Hard skills</h1>
+
+                <h4>Aquired</h4>
+                <div class="skills-container" id="skills-subsection1">
+
+                    <div class="skills-item">
+                        <img src="../assets/img/html-5-48.png" alt="HTML Logo">
+                        <p>HTML</p>
+                    </div>
+
+                    <div class="skills-item">
+                        <img src="../assets/img/css3-48.png" alt="CSS Logo">
+                        <p>CSS</p>
+                    </div>
+
+                    <div class="skills-item">
+                        <img src="../assets/img/bootstrap-48.png" alt="Bootstrap Logo">
+                        <p>Bootstrap</p>
+                    </div>
+
+                    <div class="skills-item" >
+                        <img src="../assets/img/git-50.png" id="git-logo" alt="Git Logo">
+                        <p>Git</p>
+                    </div>
+
+                </div>
+
+                <h4>To learn</h4>
+                <div class="skills-container" id="skills-subsection2">
+
+
+
+                    <div class="skills-item">
+                        <img src="../assets/img/javascript-48.png" alt="JS Logo">
+                        <p>JavaScript</p>
+                    </div>
+
+                    <div class="skills-item">
+                        <img src="../assets/img/angularjs-48.png" alt="Angular Logo">
+                        <p>Angular</p>
+                    </div>
+
+                    <div class="skills-item">
+                        <img src="../assets/img/react-native-48.png" alt="React Logo">
+                        <p>React</p>
+                    </div>
+
+                    <div class="skills-item">
+                        <img src="../assets/img/vue-js-48.png" alt="VueJS Logo">
+                        <p>VueJS</p>
+                    </div>
+
+                    <div class="skills-item">
+                        <img src="../assets/img/wordpress-48.png" alt="Wordpress Logo">
+                        <p>Wordpress</p>
+                    </div>
+                </div>
+
+
+
+                <h4>Next Step</h4>
+                <div class="skills-container" id="skills-subsection3">
+                    <div class="skills-item">
+                        <img src="../assets/img/php.png" alt="PHP Logo">
+                        <p>PHP</p>
+                    </div>
+
+                    <div class="skills-item">
+                        <img src="../assets/img/mysql.png" alt="MySql Logo">
+                        <p>MySQL
+                            
+                        </p>
+                    </div>
+
+                    <div class="skills-item">
+                        <img src="../assets/img/nodejs.png" alt="Nodejs Logo">
+                        <p>Node JS</p>
+                    </div>
+                </div>
+            </div>            
+        </section>
+
+
+    </div>
+    <!--the end of the page-->
+
+
+    <!--footer-->
+    <!--COMMON TO ALL PAGES-->
+    <footer class="footer">
+
+        <img src="../assets/img/mtdng-logo-header.png" width="160" alt="MTDNG">
+
+        <div class="social">
+            <a href="www.linkedin.com/in/matteo-dangiò"><img src="../assets/img/icons8-linkedin-circled-48.png"
+                    alt="Linkedin" width="50"></a>
+            <a href="https://github.com/teo-danger"><img src="../assets/img/icons8-github-48.png" alt="Github"
+                    width="50"></a>
+            <a href="https://www.instagram.com/teo_danger/"><img src="../assets/img/icons8-instagram-48.png"
+                    alt="Instagram" width="50"></a>
+            <a href=""><img src="../assets/img/icons8-facebook-48.png" alt="Facebook" width="50"></a>
+        </div>
+
+        <p>Copyright © 2022 <br>
+            All rights reserved.</p>
+
+
+    </footer>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+
+</body>
+
+</html>

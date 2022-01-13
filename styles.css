@@ -1,0 +1,169 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* ||FONTS */
+
+/*CHANGES compared to global css stylesheet*/
+.nav-item:first-of-type:hover{
+    background: none;
+    transform: none;
+    border-top, border-left, border-right: none;
+}
+/* selected */
+.selected-home{
+    color: black;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+
+
+/* ||DIVS - mobile first */ 
+:root {
+    --black-op: rgba(0, 0, 0, 0.8);
+    --blue1: #003554;
+}
+
+
+
+
+.home-page{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 80px;
+    align-items: center;
+}
+
+.hero-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.8);
+}
+.hero-text h1{
+    line-height: 150%;
+    text-align: center;    
+    font-size: 45px;
+}
+
+.hero-text p{
+    font-size: 30px;
+}
+.hero-text p span {
+    font-style: italic;
+}
+
+.hero-text p:first-of-type{
+    margin: 120px 0;
+    width: 70%;
+
+    line-height: 60px;
+    text-align: center;
+    
+}
+.hero-text p:last-of-type{
+    text-align: center;
+    font-weight: 700;
+}
+
+
+
+
+/*Button*/
+.portfolio-btn{
+    width: 21em;
+    height: 5em;
+    margin-bottom: 100px;
+    cursor: pointer;
+    background-color: transparent;
+    border: 3px solid rgba(255, 255, 255, 0.9);
+    transition-duration: 0.5s;
+}
+.portfolio-btn h4{
+    transition-duration: 0.5s;
+    font-size: 18px;
+    
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.9);
+    
+}
+
+.portfolio-btn:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+    transition-duration: 0.5s;
+    
+}
+.portfolio-btn:hover h4{
+    transition-duration: 0.5s;
+    transform: scale(1.15);
+    color: darkslategray;
+}
+
+
+.down-arrow{
+    margin: 120px 0;
+}
+
+
+/*arrow animation doesn't work.*/  /*
+.animation{
+    position: relative;
+    animation-name: arrow;
+    animation-duration: 1s;
+    animation-timing-function: ease; 
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-play-state: paused;
+}
+@keyframes arrow {
+    from {top: -100px;}
+    to {top: 100px;}
+}
+.portfolio-btn:hover .animation{ 
+    animation-play-state: running;
+}
+*/  /*i think problem's on the pseudo class selector*/
+
+
+                            /* ||RESPONSIVE */
+
+/* ||tablet */
+@media only screen and (min-width:501px) and (max-width:960px){
+    .hero-text h1{
+        font-size: 50px;
+    }
+    
+    .hero-text p:first-of-type{
+        text-align: center;
+        
+    }
+    .nav-item:first-of-type:hover{
+        border-bottom: none;
+    }
+
+}
+/* ||desktop */
+@media only screen and (min-width:961px){
+    .page{
+        margin-top: 40px;
+    }
+    .hero-text h1{
+        border-bottom: 2px solid rgba(40, 70, 70, 0.2);
+        
+        font-size: 60px;
+    }
+    .hero-text p{
+        font-size: 40px;
+        max-width: 500px;
+    }
+    .nav-item:first-of-type:hover{
+        border-bottom: none;
+    }
+
+
+
