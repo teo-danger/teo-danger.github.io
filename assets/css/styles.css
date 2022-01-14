@@ -48,8 +48,6 @@
     --grey2: #f3f4f5;
     --grey3: #65676b;
     --white: #ffffff;
-    --blue1: #003554;
-    --black-op: rgba(0, 0, 0, 0.8);
 }
 
 a{
@@ -73,19 +71,17 @@ body{
                        /* ||ALL PAGE COMMON CSS FILE */  
 /* ||HEADER */
 
-
-.nav-bar{
-    background-color: rgba(0, 0, 0, 0);
-}
 .nav-list {
     display:flex;
     flex-direction: column;
-    padding-bottom: 5px; 
+    
+    
 }
 .nav-item{
     padding: 10px;
-    margin: 0 40px;
-    border-bottom: 0.1px solid #00000093;
+    margin:10px 40px;
+    border-radius: 5px;
+    background-color: rgba(204, 226, 226, 0.233);
     transition-duration: 0.5s;
     text-align: center;
     color: rgb(0, 0, 0);
@@ -103,8 +99,7 @@ body{
     transition-duration: 0.5s;
 }
 .nav-item:hover {
-    background-color: rgb(0, 0, 0);
-    color: white;
+    color: antiquewhite;
     transition-duration: 0.5s;
     transform: scale(1.1);
 }
@@ -114,7 +109,7 @@ body{
 }
 .hero{
     height: 100%;
-    background-image: linear-gradient(rgba(16, 53, 219, 0.5),rgba(187, 15, 15, 0.5));
+    background-image: linear-gradient(rgba(16, 53, 219, 0.5),rgba(187, 15, 15, 0.829));
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -174,18 +169,23 @@ body{
     .nav-list{
         display:flex; 
         flex-direction: row;
-        justify-content: space-evenly;  
-        padding-bottom: 0px;
+        justify-content: space-evenly;
+        padding-bottom: 0;
+        
     }
     .nav-item{
         margin: 0;
         border:none;
+        background: none;
     }
     .nav-item:hover {
         background: none;
-        border-bottom: 3px solid rgb(0, 0, 0);
-        
+        color: rgba(250, 235, 215, 0.74);
     }
+    .nav-item:active {
+        color: rgb(255, 255, 255);
+    }
+
     .logo-head{
         padding: 1em 0;
     }
@@ -193,17 +193,6 @@ body{
 
 /* ||desktop */
 @media only screen and (min-width:961px){
-   /* .menu{
-        position: fixed;
-        overflow: hidden;
-        top:0;
-        width: 100%
-    }   non riesco a fissare la navbar perchè se poi 
-    faccio un margin-top su .page,, quest'ultima è dentro 
-    l'header quindi mi sposta giù anche l'inizio dell'header.*/
-
-
-    
     
     .menu {
         display:flex;
@@ -220,12 +209,15 @@ body{
     }
     .nav-item {
         border:none;
+        background: none;
         margin: 0 20px;
     }
     .nav-item:hover {
         background: none;
-        border-bottom: 3px solid rgb(0, 0, 0);
-        
+        color: rgba(250, 235, 215, 0.74);
+    }
+    .nav-item:active {
+        color: rgb(255, 255, 255);
     }
 
     .footer{

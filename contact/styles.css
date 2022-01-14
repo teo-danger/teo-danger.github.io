@@ -8,14 +8,11 @@
 
 /*CHANGES compared to global css stylesheet*/
 .nav-item:last-of-type:hover{
-    background: none;
     transform: none;
-    border-top, border-left, border-right: none;
 }
+
 .selected-contact{
-    color: black;
-    font-weight: 700;
-    font-size: 22px;
+    color: rgba(255, 255, 255, 0.534);
 }
 
 
@@ -78,17 +75,20 @@ label{
 .form-row textarea,
 .form-row input{
     padding-left: 9px;
+    transition-duration: 0.5s;
 }
 
 .form-row select{
     padding-left: 6px;
+    transition-duration: 0.5s;
 }
 
 
 .form-row input:hover,
 .form-row select:hover,
 .form-row textarea:hover {
-    border: 2px solid black;
+    border: 1.5px solid black;
+    transition-duration: 0.5s;
 }
 
 .form-row input [type="text"]:invalid,
@@ -132,26 +132,6 @@ label{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
                             /* ||RESPONSIVE */
 
 /* ||tablet */
@@ -172,7 +152,9 @@ label{
 }
 /* ||desktop */
 @media only screen and (min-width:961px){
-    
+    .contact-page{
+        margin: 0 110px;
+    }
     .nav-item:last-of-type:hover{
         border-bottom: none;
     }

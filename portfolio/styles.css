@@ -18,16 +18,10 @@ html{
 
 /*CHANGES compared to global css stylesheet*/
 .nav-item:nth-of-type(2):hover{
-    background: none;
     transform: none;
-    border-top,
-    border-left,
-    border-right: none;         /*correggere*/
 }
 .selected-portfolio{
-    color: black;
-    font-weight: 700;
-    font-size: 22px;
+    color: rgba(255, 255, 255, 0.534);
 }
 
 /*||DIVS*/
@@ -48,14 +42,20 @@ span{
     opacity: 100%;
 }
 
-
+.nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid antiquewhite;
+    width: 100%;
+    margin-bottom: 40px;
+    border-radius: 10px;
+}
 
 .nav-link{
-    justify-content: space-evenly;
-    color: rgb(0, 0, 0);
-    margin-bottom: 40px;
-    font-size: 20px;
-    font-weight: 700;
+    color: antiquewhite;
+    font-size: 18px;
+    
     
 }
 
@@ -89,20 +89,17 @@ span{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.795);
+    background-color: rgba(0, 0, 0, 0.836);
     border-radius: 20px;
-    
-    height: 430px;
     margin: 50px 0 130px 0;
-    
+    padding: 30px;
+    height: 450px;
 }
 .projects h3{
-    color: rgb(255, 255, 255);
+    color: antiquewhite;
     font-style: italic;
-    margin: 30px 0;
-    width: 90%;
-    text-align: center;
-    line-height: 1.5;
+    width: 100%;
+    line-height: 1.4;
 }
 .projects h3 > span{
     font-size: 30px;
@@ -110,7 +107,7 @@ span{
 }
 
 .planet{
-    margin: 10px 0 0 0;
+    margin: 15px 0 0 0;
     width: 70px;
     opacity: 70%; 
     animation-name: planet;
@@ -158,13 +155,13 @@ span{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color:rgba(0, 0, 0, 0.35);
+    background-color:rgba(0, 0, 0, 0.836);
     height: 350px;
     border-radius: 20px;
 }
 .project-item p{
     font-size: 35px;
-    color: rgba(255, 255, 255, 0.692);
+    color: antiquewhite;
 }
 
 
@@ -194,7 +191,7 @@ span{
 }
 
 .back-to{
-    color: white;
+    color: antiquewhite;
     text-shadow: 3px 3px 8px rgba(255, 255, 255, 0.678);
     font-size: 20px;
     line-height: 28px;
@@ -214,18 +211,17 @@ span{
     .nav-item:nth-of-type(2):hover{
         border-bottom: none;
     }
-    .nav{
-        width:100%;
-        justify-content: space-evenly;
-
+    .nav {
+        width: 100%;
     }
+   
     .goal-box{
-        height: 430px;
-        max-width: 90%;  
+        height: 480px;
+        width: 100%;  
     }
-    .planet{
-        margin: 30px 0 0 0;
+    .planet{ 
         width: 80px;
+        margin-top: 30px ;
     }
 
     .projects h1:first-of-type, 
@@ -235,7 +231,7 @@ span{
     }
     
     .project-container{
-        max-width: 90%;
+        max-width: 100%;
     }
     .project-container p {
         text-align: center;
@@ -266,19 +262,17 @@ span{
     .nav-item:nth-of-type(2):hover{
         border-bottom: none;
     }
-    .nav{
-        width:100%;
-        justify-content: space-evenly;
-
-    }
     .portfolio-page{
-        display: flex;
-        justify-content: center;
+        margin: 50px 15px;             /*see here*/
+    }
+    .nav{
+        width: 70%;
     }
 
     .goal-box{
         height: 530px;
-        max-width: 850px;  
+        width: 70%;
+        text-align: center;
     }
 
     .planet{
@@ -286,7 +280,6 @@ span{
         width: 100px;
     }
 
-   
     .projects h1:first-of-type {
         font-size: 50px;
         text-align: center;
@@ -303,50 +296,41 @@ span{
 
     .project-container{
         display: flex;
-        justify-content: space-between; 
-        background-color: aliceblue;
+        justify-content: space-around;
+        background-color: antiquewhite;
         border-radius: 20px;
-        padding: 40px;
+        padding: 30px;
         margin-bottom: 200px; 
-        width: 100%;
-        
     }
 
     .project-item{
         width: 550px;
         height: 450px;
-        margin-left: 80px;
+        padding-left: 30px;
     }
     .text-cont{
         display: flex;
         flex-direction: column;
-        width: 300px;
+        max-width: 450px;
+      
+        padding-right: 20px;
+        
     }
-
     .container-description{    
         flex: 2;
         font-size: 20px;
         color: rgba(31, 1, 1, 0.712);
         
     }
-    
     .project-container h4{
-        padding-top: 20px;
         flex: 1;
     }
     
-
     .first-project{
         background-size: 155%;
     }
     .first-project:hover{
         background-size: 195%;
-    }
-    .project-item{
-        
-        background-color:rgba(0, 0, 0, 0.795);
-        height: 450px;
-        
     }
     .project-item p{
         font-size: 60px;
