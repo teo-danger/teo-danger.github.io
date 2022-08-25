@@ -1,18 +1,14 @@
-# teo-danger.github.io
+
 
 <div id="top"></div>
 
 <!-- PROJECT LOGO -->
 <br />
-<div align="center">
-  <a href="https://[github.com/github_username/repo_name](https://teo-danger.github.io/)">
-    <img src="assets/img/logo.png" alt="Logo" width="100" height="100">
-  </a>
 
-<h3 align="center">Javascript Counter Application</h3>
-https://mtdng-javascript-counter.netlify.app/
+<h3 align="center">HTML/CSS portfolio website</h3>
+https://teo-danger.github.io
   <p align="center">
-    A counter application implemented with javascript to testing my JS basic knowledges.
+  A first approach to using HTML and CSS to create a portfolio/personal website.
     <br />
     <a href="https://github.com/teo-danger/JavaScript-Counter"><strong>Explore the docs »</strong></a>
     <br />
