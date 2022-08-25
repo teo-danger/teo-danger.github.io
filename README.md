@@ -6,9 +6,7 @@
 <br />
 
 <h3 align="center">HTML/CSS portfolio website</h3>
-<p align="center">
-<a href="https://teo-danger.github.io">Visit website here</a>
- </p>
+
 
   <p align="center">
   A first approach to using HTML and CSS to create a portfolio/personal website.</p>
@@ -16,27 +14,6 @@
 
 
 
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-     
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
-  </ol>
-</details>
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -83,23 +60,9 @@ Not yet a Licence.txt
 
 Matteo Dangiò - [@linkedin_handle](https://www.linkedin.com/in/matteo-dangi%C3%B2/) - matteo.dangio@outlook.com
 
-Project Link: [https://github.com/teo-danger/JavaScript-Counter](https://github.com/teo-danger/JavaScript-Counter)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-
-
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
-
-* [Pexels](https://www.pexels.com/)
-* [Font squirrel](https://www.fontsquirrel.com/)
-* [stack overflow](https://stackoverflow.com/)
-* [Github](https://github.com/)
-* [VS Code]()
-* [ConEmu]()
-
-<p align="right">(<a href="#top">back to top</a>)</p>
 
 
 
