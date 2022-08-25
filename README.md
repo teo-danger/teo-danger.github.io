@@ -6,7 +6,8 @@
 <br />
 
 <h3 align="center">HTML/CSS portfolio website</h3>
-https://teo-danger.github.io
+<a align="center" href="https://teo-danger.github.io">
+
   <p align="center">
   A first approach to using HTML and CSS to create a portfolio/personal website.
     <br />
