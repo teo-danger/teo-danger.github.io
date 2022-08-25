@@ -5,7 +5,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/github_username/repo_name">
+  <a href="https://[github.com/github_username/repo_name](https://teo-danger.github.io/)">
     <img src="assets/img/logo.png" alt="Logo" width="100" height="100">
   </a>
 
