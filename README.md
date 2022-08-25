@@ -5,20 +5,18 @@
 <!-- PROJECT LOGO -->
 <br />
 
-<h3 align="center"><a href="[#about-the-project](https://teo-danger.github.io)">HTML/CSS portfolio website</a></h3>
-
+<h3 align="center">HTML/CSS portfolio website</h3>
+<p align="center">
+<a href="https://teo-danger.github.io">Visit website here</a>
+ </p>
 
   <p align="center">
   A first approach to using HTML and CSS to create a portfolio/personal website.
     <br />
-    <a href="https://github.com/teo-danger/JavaScript-Counter"><strong>Explore the docs »</strong></a>
+  
     <br />
     <br />
-    <a href="https://github.com/teo-danger/JavaScript-Counter">View Demo</a>
-    ·
-    <a href="https://github.com/teo-danger/JavaScript-Counter/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/teo-danger/JavaScript-Counter/issues">Request Feature</a>
+   
   </p>
 </div>
 
@@ -55,9 +53,6 @@
 * [HTML 5](https://developer.mozilla.org/en-US/docs/Web/HTML)
 * [CSS 3](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
-
-
-
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
@@ -83,7 +78,7 @@ Don't forget to give the project a star! Thanks again!
 <!-- LICENSE -->
 ## License
 
-Not yet a Licence.txt. I need more informations about it...
+Not yet a Licence.txt
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -103,14 +98,10 @@ Project Link: [https://github.com/teo-danger/JavaScript-Counter](https://github.
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* [Netlify](https://www.netlify.com/)
-* [Javascript.info](https://javascript.info/)
-* [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript?retiredLocale=it)
 * [Pexels](https://www.pexels.com/)
 * [Font squirrel](https://www.fontsquirrel.com/)
 * [stack overflow](https://stackoverflow.com/)
 * [Github](https://github.com/)
-* [Brian Design](https://www.youtube.com/channel/UCsKsymTY_4BYR-wytLjex7A)
 * [VS Code]()
 * [ConEmu]()
 
