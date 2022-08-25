@@ -11,13 +11,7 @@
  </p>
 
   <p align="center">
-  A first approach to using HTML and CSS to create a portfolio/personal website.
-    <br />
-  
-    <br />
-    <br />
-   
-  </p>
+  A first approach to using HTML and CSS to create a portfolio/personal website.</p>
 </div>
 
 
