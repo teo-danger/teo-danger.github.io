@@ -5,8 +5,8 @@
 <!-- PROJECT LOGO -->
 <br />
 
-<h3 align="center">HTML/CSS portfolio website</h3>
-							https://teo-danger.github.io
+<h3 align="center"><a href="[#about-the-project](https://teo-danger.github.io)">HTML/CSS portfolio website</a></h3>
+
 
   <p align="center">
   A first approach to using HTML and CSS to create a portfolio/personal website.
@@ -29,7 +29,7 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#about-the-project">About The Project</a>
+     
       <ul>
         <li><a href="#built-with">Built With</a></li>
       </ul>
@@ -47,14 +47,6 @@
 </details>
 
 
-
-<!-- ABOUT THE PROJECT -->
-## About The Project
-
-![screenshot](https://user-images.githubusercontent.com/96834338/152699082-63515901-04ba-4834-9bc9-30b03e510a15.png)
-
-
-
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
@@ -62,7 +54,7 @@
 
 * [HTML 5](https://developer.mozilla.org/en-US/docs/Web/HTML)
 * [CSS 3](https://developer.mozilla.org/en-US/docs/Web/CSS)
-* [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript?retiredLocale=it)
+
 
 
 
@@ -72,19 +64,8 @@
 
 <!-- GETTING STARTED -->
 ## Getting Started
-You can try the application here: https://mtdng-javascript-counter.netlify.app/
+You can visit the website here: https://teo-danger.github.io
 
-
-<!-- USAGE EXAMPLES -->
-## Usage
-You can use this simple application to increase and decrease the counter and visualize the result on the display.
-
-I have implemented counting with events, functions and if statements, and a reset button that appear when the counter display shows a number not equal to zero.
-
-I'd have liked to add a transition out on the reset button, but the "display: none;" css property fires before the animation, so actually there's not. 
-I saw I should use "setTimout()" javascript method, so it'll be the next step.
-
-<p align="right">(<a href="#top">back to top</a>)</p>
 
 
 <!-- CONTRIBUTING -->
